@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffeedf;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+}
+
+button,
+span {
+  font-family: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-button {
+  position: relative;
+  background-color: #1c5a4e;
+  min-width: 240px;
+  min-height: 240px;
+  border: none;
+  border-radius: 50%;
+}
+
+.primary-button span {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  color: #ffeedf;
+  font-size: 200px;
+  font-weight: 300;
+}
